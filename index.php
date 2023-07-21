@@ -22,7 +22,10 @@ class Movie
 }
 
 $orainonda = new Movie();
+$domaniserainTv = new Movie();
 
 $orainonda-> title = "Caccia all'Ottobre Rosso";
+$domaniserainTv-> title = "Mamma ho Perso l'Aereo";
 
 var_dump($orainonda);
+var_dump($domaniserainTv);
