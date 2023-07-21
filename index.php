@@ -12,12 +12,15 @@ class Movie
 {
  // Variabili d'istanza o prorpietà
  public $genre;
- public $lenght;
+ public $length;
  public $title;
 
- // costruttore
- public function __construct($genre, $lenght, $title)
- {       }
+ // costruttore : scelgo i parametri minimi di costruzione posso dargli il nome che voglio anche lo stesso delle variabili
+ public function __construct($bloccodati1, $bloccodati2, $bloccodati3)
+ {$this-> genre = $bloccodati1; $this-> length = $bloccodati2; $this-> title = $bloccodati3;
+
+
+}
 
  
 
@@ -41,8 +44,8 @@ $orainonda-> title = "Caccia all'Ottobre Rosso";
 $domaniserainTv-> title = "Mamma ho Perso l'Aereo";
 $orainonda-> genre = "Storico";
 $domaniserainTv-> genre = "Commedia";
-$orainonda-> lenght = "2 ore e 5 minuti";
-$domaniserainTv-> lenght = "1 ora e 48 minuti";
+$orainonda-> length = "2 ore e 5 minuti";
+$domaniserainTv-> length = "1 ora e 48 minuti";
 
 $orainonda -> presentazioneOggi();
 $domaniserainTv -> presentazioneDomani();
